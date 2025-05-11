@@ -9,10 +9,11 @@ int main(void){
     char operation;
     printf("Please enter the first number: ");
     scanf("%lf",&num1);
-    printf("Please enter the second number: ");
-    scanf("%lf",&num2);
     printf("Please enter operation you want to be done('+','-','*','/'): ");
     scanf(" %c",&operation);
+    printf("Please enter the second number: ");
+    scanf("%lf",&num2);
+   
     switch (operation)
     {
     case '+':
